@@ -28,15 +28,9 @@ Clase que maneja la consulta a la API de Exchange Rate para obtener las tasas de
 ### `TipoCambio`
 Clase que representa la respuesta de la API, contiene el resultado de la conversión.
 
-## Uso
-1. **Clonar el Repositorio**:
-   ```sh
-   git clone https://github.com/dlrletonar/conversor-monedas.git
-   cd conversor-monedas
-   ```
 
 2. **Configurar Dependencias**:
-   - Asegúrese de tener `gson-2.11.0.jar` en su classpath. Puede descargarlo desde [Maven Repository](https://mvnrepository.com/artifact/com.google.code.gson/gson/2.11.0).
+   - Asegúrese de tener `gson-2.11.0.jar` en su classpath.
 
    - Compile el proyecto incluyendo el JAR de GSON:
      ```sh
@@ -48,7 +42,7 @@ Clase que representa la respuesta de la API, contiene el resultado de la convers
      java -cp .:gson-2.11.0.jar Main
      ```
 
-3. **Interacción**:
+ **Interacción**:
    - Seleccione la opción deseada del menú.
    - Ingrese el monto que desea convertir.
    - El resultado de la conversión se mostrará en la consola.
@@ -80,8 +74,4 @@ El monto es: 14560.0 Dólar a Peso argentino
 
 ## Notas
 - En la clase `ConsultarTasaCambio`, hay una variable `String apiKey **Debe reemplazar esta clave de API por su propia clave** para que la aplicación funcione correctamente.
-- La API Key utilizada en el proyecto es de ejemplo. Se recomienda obtener una propia de [Exchange Rate API](https://www.exchangerate-api.com/).
-
----
-
-¡Gracias por usar el conversor de monedas!
+- La API Key utilizada en el proyecto es de ejemplo. Se recomienda obtener una propia de exchangerate API
