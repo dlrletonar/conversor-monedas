@@ -79,7 +79,7 @@ El monto es: 14560.0 Dólar a Peso argentino
 - Conexión a internet para consultar las tasas de cambio.
 
 ## Notas
-- En la clase `ConsultarTasaCambio`, hay una variable `String apiKey = "4d45acbd654b94c4d8063701";`. **Debe reemplazar esta clave de API por su propia clave** para que la aplicación funcione correctamente.
+- En la clase `ConsultarTasaCambio`, hay una variable `String apiKey **Debe reemplazar esta clave de API por su propia clave** para que la aplicación funcione correctamente.
 - La API Key utilizada en el proyecto es de ejemplo. Se recomienda obtener una propia de [Exchange Rate API](https://www.exchangerate-api.com/).
 
 ---
